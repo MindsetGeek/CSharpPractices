@@ -11,10 +11,17 @@ namespace CSharpPractices
     {
         static void Main(string[] args)
         {
-            StaticVariable.ShowMessage();
-            Console.WriteLine(StaticVariable.x);
+            //StaticVariable.ShowMessage();
+            //Console.WriteLine(StaticVariable.x);
+
+            InstanceVariable obj1 = new InstanceVariable(12);
+            Console.WriteLine(obj1.x);
+
+            InstanceVariable obj2 = new InstanceVariable(120);
+            Console.WriteLine(obj2.x);
 
             Console.Read();
+
         }
     }
 }

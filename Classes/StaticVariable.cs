@@ -8,7 +8,7 @@ namespace CSharpPractices.Classes
 {
     public static class StaticVariable
     {
-        public static int x = 12;
+        public static int x;
         public static void ShowMessage()
         {
             Console.WriteLine("Show Messege method run");
