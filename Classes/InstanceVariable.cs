@@ -8,14 +8,16 @@ namespace CSharpPractices.Classes
 {
     public class InstanceVariable
     {
-        public int x = 12;
+        public int x;
         public void ShowMessage()
         {
-            Console.WriteLine("Show Messege method run from InstanceVariable");
+            string name = "Mindset Geek";
+            Console.WriteLine(name);
         }
-        public InstanceVariable(int value)
-        {
-            this.x = value;
-        }
+
+        //public InstanceVariable(int value)
+        //{
+        //    this.x = value;
+        //}
     }
 }
