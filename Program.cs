@@ -25,7 +25,10 @@ namespace CSharpPractices
 
             //Console.WriteLine(obj.x);
 
-            UserInput.Addition();
+            //UserInput.Addition();
+
+            CasingIntroduct obj = new CasingIntroduct();
+            obj.Casting();
 
             Console.Read();
 
