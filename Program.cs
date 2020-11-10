@@ -20,10 +20,12 @@ namespace CSharpPractices
             //InstanceVariable obj2 = new InstanceVariable(120);
             //Console.WriteLine(obj2.x);
 
-            InstanceVariable obj = new InstanceVariable();
-            obj.ShowMessage();
+            //InstanceVariable obj = new InstanceVariable();
+            //obj.ShowMessage();
 
-            Console.WriteLine(obj.x);
+            //Console.WriteLine(obj.x);
+
+            UserInput.Addition();
 
             Console.Read();
 
